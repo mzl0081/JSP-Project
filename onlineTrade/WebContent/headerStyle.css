@@ -1,0 +1,88 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0px;
+	background-color: none;
+}
+
+div.nav 
+{
+	float: left;
+	width: auto;
+	background-color: #f44336;
+    padding-top: 60px;
+	margin: 0px;
+	position: fixed;
+	height: 100%;
+}
+
+
+div.header
+{
+	/*float: left;*/
+	text-align: center;
+	padding: 0px;
+	width: auto;
+	transition: transform.2s;
+	height: auto;
+	margin-right: 50px;
+}
+
+
+div.header:hover
+{
+	transform: scale(1.1);
+}
+
+div.header h1
+{
+	margin: 0px;
+	margin-left: 40px;
+}
+
+div h1 a
+{
+	font-size: 50px;
+	font-family: "arial";
+	font-weight: bolder;
+	font-variant-caps: small-caps;
+	text-decoration: none;
+	color: white;
+
+}
+
+div.user_login
+{
+	margin-top: 100px;
+	width: 300.5px;
+	text-align: center;
+}
+
+div.user_login a
+{
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 23px;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+	color: white;
+	text-align: left;
+	padding-left: 50px;
+	text-decoration: none;
+}
+
+
+div.user_login a:hover 
+{
+    color: black;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+

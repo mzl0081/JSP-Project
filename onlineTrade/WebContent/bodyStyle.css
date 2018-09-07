@@ -1,0 +1,192 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0px;
+	background-color: none;
+}
+
+
+
+div.content
+{ 
+	width: 600px;
+	height: 220px; 
+	margin-left: 300.5px;
+	padding-left: 100px;
+	padding-top: 60px;
+}
+
+
+div.content h2
+{
+
+	text-align: left;
+	color: black;
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	width: 300px;
+
+}
+
+div.content form
+{
+	width: 450px;
+}
+
+
+div.content select
+{
+	float: left;
+	width: 260px;
+	height: 40px;
+    font-size: 20px;
+    border: 6px solid black;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin-right: 60px;
+}
+
+
+
+div.content input
+{
+	float: right;
+	width:100px;
+	background-color: white;
+	border: 3px solid black;
+	border-radius: 7px;
+	font-size: 18px;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+}
+
+div.content input:hover
+{
+	background-color: #f44336;
+	border: 3px solid #f44336;
+	color: white;
+}
+
+div.content:after
+{
+	clear: both;
+}
+
+div.blank label
+{
+	float:left;
+	font-size: 18px;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+	width:220px;
+}
+
+div.blank p
+{
+	display: inline;
+	font-size: 18px;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+	width:220px;
+}
+
+div.table
+{
+	margin-left: 300.5px;
+	padding-left: 100px;
+	margin-top: 80px;
+	height:300px;
+	width: auto;
+	
+}
+
+div.table caption
+{
+	text-align: left;
+	font-size: 22px;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+}
+
+div.table table
+{
+	width:80%;
+	border: 3px solid #e6e6e6;
+	border-radius: 7px;
+	text-align: left;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+div.table table th, div.table table td {
+	border: 3px solid #e6e6e6;
+    padding: 8px;
+    font-family: "Poppins", sans-serif;
+}
+
+div.table table tr:nth-child(even){background-color: #e6e6e6;}
+
+div.table table tr:hover 
+{
+	background-color: #ffcccc;
+}
+
+div.table table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color:#f44336;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px; 
+}
+
+div.table table td
+{
+	font-size: 18px; 
+}
+
+div.table table td a
+{
+	 color: black;
+}
+
+div.table table td a:hover
+{
+	color:white;
+}
+
+div.table table td form input
+{
+	 color: black;
+	 border-style: none;
+	 background-color: transparent;
+	 font-family: "Poppins", sans-serif;
+	 font-size: 18px;
+	 text-decoration:underline;
+}
+
+
+div.table table td form input:hover
+{
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

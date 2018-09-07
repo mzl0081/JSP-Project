@@ -1,0 +1,105 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0px;
+	background-color: none;
+}
+
+
+
+div.content
+{ 
+	width: 900px;
+	margin-left: 300.5px;
+	padding-left: 100px;
+	padding-top: 60px;
+}
+
+
+div.content h2
+{
+	text-align: left;
+	color: black;
+	font-family: "Poppins", sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+
+}
+
+
+div.blank label
+{
+	float:left;
+	font-size: 18px;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+	width:220px;
+}
+
+div.blank input
+{
+	width: 300px;
+	height: 30px;
+	border: 2px solid black;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+div.blank p
+{
+	display: inline;
+	font-size: 18px;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+	width:220px;
+}
+
+div.content select
+{
+	width: 300px;
+	height: 30px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-weight: bolder;
+}
+
+div.botton input
+{
+	width:100px;
+	background-color: white;
+	border: 3px solid black;
+	border-radius: 7px;
+	font-size: 18px;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+}
+
+div.botton input:hover
+{
+	background-color: #f44336;
+	border: 3px solid #f44336;
+	color: white;
+}
+
+#uname_error, #email_error, #password_error, #cpassword_error
+{
+	color: #f44336;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
